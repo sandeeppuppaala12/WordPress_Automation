@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="displayLabel" value="Public display name"/>
+    <parameter name="gravatarProfileLink" value="https://en.gravatar.com/"/>
+    <parameter name="createSite_Desc" value="Its a beautiful world"/>
+    <parameter name="uname" value="sandeep.puppaala@gmail.com"/>
+    <parameter name="invalidPassMessage" value="Oops, that&#039;s not the right password. Please try again!"/>
+    <parameter name="pageTitle" value="My Profile — WordPress.com"/>
+    <parameter name="displayName" value="sandeeppuppala12"/>
+    <parameter name="url" value="https://wordpress.com/me"/>
+    <parameter name="lastNameLabel" value="Last name"/>
+    <parameter name="firstNameText" value="Sandeep"/>
+    <parameter name="createSite_URL" value="MyWorld.com"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="invalidUserMessage" value="User does not exist. Would you like to create a new account?"/>
+    <parameter name="pwd" value="Password@123"/>
+    <parameter name="firstNameLabel" value="First name"/>
+    <parameter name="descriptionLabel" value="About me"/>
+    <parameter name="gravatarLoginLink" value="https://en.gravatar.com/site/login"/>
+    <classes>
+      <class name="Pages_Test.MyProfilePage_Tests">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="initilizeBrowser"/>
+          <include name="endBrowserInstance"/>
+          <include name="validateMyProfilePage_ProfileLink_Add_URL_AddSite_Button_Functionality_With_Valid_URL_Format_And_Description" invocation-numbers="0"/>
+          <include name="initilizeReporting"/>
+        </methods>
+      </class> <!-- Pages_Test.MyProfilePage_Tests -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
