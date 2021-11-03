@@ -38,6 +38,7 @@ public abstract class Page_Abstraction {
 	public abstract void switchToActiveWindow();
 	public abstract String getPageURL();
 	public abstract By getElement(String xpath);
+	public abstract String[] splitString(String text, String splitConstant);
 	
 	//Used to create new instance of a passed class using WebDriver
 	public <PageClass extends BaseFrame> PageClass getInstance(Class<PageClass> pClass) {

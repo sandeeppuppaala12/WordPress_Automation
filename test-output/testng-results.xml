@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="12998" started-at="2021-10-31T01:54:55 IST" finished-at="2021-10-31T01:55:08 IST">
+  <suite name="Suite" duration-ms="167741" started-at="2021-11-03T16:48:23 IST" finished-at="2021-11-03T16:51:11 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="12998" started-at="2021-10-31T01:54:55 IST" finished-at="2021-10-31T01:55:08 IST">
+    <test name="Test" duration-ms="167741" started-at="2021-11-03T16:48:23 IST" finished-at="2021-11-03T16:51:11 IST">
       <class name="Pages_Test.MyProfilePage_Tests">
-        <test-method status="PASS" signature="initilizeReporting()[pri:0, instance:Pages_Test.MyProfilePage_Tests@71bbf57e]" name="initilizeReporting" is-config="true" duration-ms="367" started-at="2021-10-31T01:54:55 IST" finished-at="2021-10-31T01:54:55 IST">
+        <test-method status="PASS" signature="initilizeReporting()[pri:0, instance:Pages_Test.MyProfilePage_Tests@3d285d7e]" name="initilizeReporting" is-config="true" duration-ms="402" started-at="2021-11-03T16:48:23 IST" finished-at="2021-11-03T16:48:23 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilizeReporting -->
-        <test-method status="PASS" signature="initilizeBrowser(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:Pages_Test.MyProfilePage_Tests@71bbf57e]" name="initilizeBrowser" is-config="true" duration-ms="5300" started-at="2021-10-31T01:54:55 IST" finished-at="2021-10-31T01:55:01 IST">
+        <test-method status="PASS" signature="initilizeBrowser(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:Pages_Test.MyProfilePage_Tests@3d285d7e]" name="initilizeBrowser" is-config="true" duration-ms="6581" started-at="2021-11-03T16:48:23 IST" finished-at="2021-11-03T16:48:30 IST">
           <params>
             <param index="0">
               <value>
@@ -25,14 +25,72 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[public void Pages_Test.MyProfilePage_Tests.validateMyProfilePage_ProfileLink_Add_URL_AddSite_Button_isEnabled_With_Valid_URL_Format_And_Description(java.lang.String,java.lang.String,java.lang.String)]]>
+                <![CDATA[public void Pages_Test.MyProfilePage_Tests.validateMyProfilePage_ProfileLink_Add_URL_AddSite_Button_Functionality_With_Valid_URL_Format_And_Description(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilizeBrowser -->
-        <test-method status="PASS" signature="validateMyProfilePage_ProfileLink_Add_URL_AddSite_Button_isEnabled_With_Valid_URL_Format_And_Description(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@71bbf57e]" name="validateMyProfilePage_ProfileLink_Add_URL_AddSite_Button_isEnabled_With_Valid_URL_Format_And_Description" duration-ms="6874" started-at="2021-10-31T01:55:01 IST" description="Validate if Profile Link- Add URL- Add Site Button is Enabled without adding &#039;.com&#039; in the URL and Description text" finished-at="2021-10-31T01:55:07 IST">
+        <test-method status="PASS" signature="validateMyProfilePage_ProfileLink_Add_URL_AddSite_Button_Functionality_With_Valid_URL_Format_And_Description(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@3d285d7e]" name="validateMyProfilePage_ProfileLink_Add_URL_AddSite_Button_Functionality_With_Valid_URL_Format_And_Description" duration-ms="52680" started-at="2021-11-03T16:48:30 IST" description="Validate if Profile Link- Add URL- Add Site Button Functionality with Valid URL and Description text" finished-at="2021-11-03T16:49:22 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sandeep.puppaala@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[MyWorld.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Its a beautiful world]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMyProfilePage_ProfileLink_Add_URL_AddSite_Button_Functionality_With_Valid_URL_Format_And_Description -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Pages_Test.MyProfilePage_Tests@3d285d7e]" name="afterMethod" is-config="true" duration-ms="804" started-at="2021-11-03T16:49:22 IST" finished-at="2021-11-03T16:49:23 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateMyProfilePage_ProfileLink_Add_URL_AddSite_Button_Functionality_With_Valid_URL_Format_And_Description status=SUCCESS method=MyProfilePage_Tests.validateMyProfilePage_ProfileLink_Add_URL_AddSite_Button_Functionality_With_Valid_URL_Format_And_Description(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@3d285d7e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="initilizeBrowser(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:Pages_Test.MyProfilePage_Tests@3d285d7e]" name="initilizeBrowser" is-config="true" duration-ms="4886" started-at="2021-11-03T16:49:23 IST" finished-at="2021-11-03T16:49:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://wordpress.com/me]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void Pages_Test.MyProfilePage_Tests.validateMyProfilePage_ProfileLink_Add_URL_AddedSite_Delete_Functionality(java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method status="PASS" signature="validateMyProfilePage_ProfileLink_Add_URL_AddedSite_Delete_Functionality(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@3d285d7e]" name="validateMyProfilePage_ProfileLink_Add_URL_AddedSite_Delete_Functionality" duration-ms="101852" started-at="2021-11-03T16:49:28 IST" description="Validate if Add Profile Links- Delete URL Functionality" depends-on-methods="Pages_Test.MyProfilePage_Tests.validateMyProfilePage_ProfileLink_Add_URL_AddSite_Button_Functionality_With_Valid_URL_Format_And_Description" finished-at="2021-11-03T16:51:10 IST">
           <params>
             <param index="0">
               <value>
@@ -52,19 +110,19 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateMyProfilePage_ProfileLink_Add_URL_AddSite_Button_isEnabled_With_Valid_URL_Format_And_Description -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Pages_Test.MyProfilePage_Tests@71bbf57e]" name="afterMethod" is-config="true" duration-ms="780" started-at="2021-10-31T01:55:07 IST" finished-at="2021-10-31T01:55:08 IST">
+        </test-method> <!-- validateMyProfilePage_ProfileLink_Add_URL_AddedSite_Delete_Functionality -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Pages_Test.MyProfilePage_Tests@3d285d7e]" name="afterMethod" is-config="true" duration-ms="866" started-at="2021-11-03T16:51:10 IST" finished-at="2021-11-03T16:51:11 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=validateMyProfilePage_ProfileLink_Add_URL_AddSite_Button_isEnabled_With_Valid_URL_Format_And_Description status=SUCCESS method=MyProfilePage_Tests.validateMyProfilePage_ProfileLink_Add_URL_AddSite_Button_isEnabled_With_Valid_URL_Format_And_Description(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@71bbf57e] output={null}]]]>
+                <![CDATA[[TestResult name=validateMyProfilePage_ProfileLink_Add_URL_AddedSite_Delete_Functionality status=SUCCESS method=MyProfilePage_Tests.validateMyProfilePage_ProfileLink_Add_URL_AddedSite_Delete_Functionality(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@3d285d7e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="endBrowserInstance()[pri:0, instance:Pages_Test.MyProfilePage_Tests@71bbf57e]" name="endBrowserInstance" is-config="true" duration-ms="494" started-at="2021-10-31T01:55:08 IST" finished-at="2021-10-31T01:55:09 IST">
+        <test-method status="PASS" signature="endBrowserInstance()[pri:0, instance:Pages_Test.MyProfilePage_Tests@3d285d7e]" name="endBrowserInstance" is-config="true" duration-ms="801" started-at="2021-11-03T16:51:11 IST" finished-at="2021-11-03T16:51:12 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endBrowserInstance -->

@@ -88,6 +88,7 @@ public class BaseFrame extends Page_Abstraction {
 		try {
 			expliciteWait("visibility", locator);
 			txt= driver.findElement(locator).getText().trim();
+			System.out.println("Text Value: "+txt);
 		}
 		catch(Exception e) {
 			e.printStackTrace();
@@ -100,7 +101,7 @@ public class BaseFrame extends Page_Abstraction {
 		try {
 			expliciteWait("visibility", locator);
 			driver.findElement(locator).click();
-			Thread.sleep(500);
+			Thread.sleep(1000);
 		}
 		catch(Exception e) {
 			e.printStackTrace();
@@ -186,7 +187,8 @@ public class BaseFrame extends Page_Abstraction {
 		String attributeValue= "";
 		try {
 			expliciteWait("visibility", locator);
-			attributeValue= getElement(locator).getAttribute(attributeValue);
+			attributeValue= getElement(locator).getAttribute(attributeName).toString();
+			System.out.println("Attribute Value: "+attributeValue);
 		}
 		catch(Exception e) {
 			e.printStackTrace();
@@ -252,6 +254,18 @@ public class BaseFrame extends Page_Abstraction {
 			e.printStackTrace();
 		}
 		return windows;
+	}
+	
+	@Override
+	public String[] splitString(String text, String splitConstant) {
+		try {
+			String[] strArray= text.split(splitConstant);
+			return strArray;
+		}
+		catch(Exception e) {
+			e.printStackTrace();
+		}
+		return null;
 	}
 	
 	

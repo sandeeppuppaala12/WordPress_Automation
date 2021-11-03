@@ -23,9 +23,12 @@ public class MyProfilePage extends BaseFrame{
 	private By sideBarMenuItems= By.xpath("//ul[@class='sidebar__menu']/li");
 	private By firstName= By.id("first_name");
 	private By lastName= By.id("last_name");
-	private By displayName= By.name("display_name");
+	private By displayName= By.id("display_name");
 	private By description= By.id("description");
 	private By toggleButton= By.id("inspector-toggle-control-0");
+	private By gRavatar_Link= By.linkText("Gravatar");
+	private By photo_popover= By.className("popover__inner");
+	private By popover_button_xpath= By.xpath("//*[@id=\"primary\"]/main/div[2]/div/div[2]/button");
 	private By gRavatarProfile_Link= By.linkText("Gravatar profile");
 	private By gRavatarProfileDelete_Link= By.linkText("Gravatar.com");
 	private By addProfileLink= By.xpath("//div[@class='section-header__actions']//span");
@@ -39,11 +42,14 @@ public class MyProfilePage extends BaseFrame{
 	private By verifyEmailContainer= By.xpath("//span[@class='edit-gravatar__label']");
 	private By logoutButton_xpath= By.xpath("//button[@title='Log out of WordPress.com']");
 	private By saveDetailsButton_xpath= By.xpath("//button[contains(text(),'Save profile details')]");
+	private By changePhotoLink_class= By.className("edit-gravatar__label");
+	private By photoProfileStatus_class= By.className("edit-gravatar__explanation");
 	private By profileLinkList_URLs_xpath= By.xpath("//ul[@class='profile-links__list']/li/a/span[@class='profile-link__url']");
 	private By profileLinkList_Descs_xpath= By.xpath("//ul[@class='profile-links__list']/li/a/span[@class='profile-link__title']");
 	private By profileLinkList_DeleteButtons_xpath= By.xpath("//ul[@class='profile-links__list']/li/button");
 	private By profileLinkList_CommonPath_xpath= By.xpath("//ul[@class='profile-links__list']/li");
 	
+	private By noURLLinks_class= By.className("profile-links__no-links");
 	
 	//Label locators
 	private By firstName_label= By.xpath("//label[@for='first_name']");
@@ -132,10 +138,8 @@ public class MyProfilePage extends BaseFrame{
 	public String get_FirstName() {
 		String fName="";
 		try {
-			fName= getText(firstName);
-			if(fName.isEmpty()) {
-				fName= getAttribute(firstName, "value");
-			}
+			fName= getAttribute(firstName, "value");
+			
 		}
 		catch(Exception e) {
 			e.printStackTrace();
@@ -177,7 +181,7 @@ public class MyProfilePage extends BaseFrame{
 	public String get_LastName() {
 		String lName="";
 		try {
-			lName= getText(lastName);
+			lName= getAttribute(lastName,"value");
 		}
 		catch(Exception e) {
 			e.printStackTrace();
@@ -219,7 +223,8 @@ public class MyProfilePage extends BaseFrame{
 	public String get_DisplayName() {
 		String dName="";
 		try {
-			dName= getText(displayName);
+//			dName= getText(displayName);
+			dName= getAttribute(displayName,"value");
 		}
 		catch(Exception e) {
 			e.printStackTrace();
@@ -261,12 +266,65 @@ public class MyProfilePage extends BaseFrame{
 	public String get_Description() {
 		String lName="";
 		try {
-			lName= getText(description);
+			lName= getAttribute(description,"value");
 		}
 		catch(Exception e) {
 			e.printStackTrace();
 		}
 		return lName;
+	}
+	
+	public boolean isChangePhotoLinkEnabled() {
+		boolean isEnabled=false;
+		try {
+			isEnabled= isElementEditable(changePhotoLink_class);
+		}
+		catch(Exception e) {
+			e.printStackTrace();
+		}
+		return isEnabled;
+	}
+	
+	public String get_ProfilePhotoStatus() {
+		String lName="";
+		try {
+			lName= getText(photoProfileStatus_class);
+		}
+		catch(Exception e) {
+			e.printStackTrace();
+		}
+		return lName;
+	}
+	
+	public boolean isPopover_ButtonVisible() {
+		boolean isVisible=false;
+		try {
+			isVisible= isElementDisplayed(popover_button_xpath);
+		}
+		catch(Exception e) {
+			e.printStackTrace();
+		}
+		return isVisible;
+	}
+	
+	public void click_popover_button() {
+		try {
+			clickElement(popover_button_xpath);
+		}
+		catch(Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public boolean isPopover_Visible() {
+		boolean isVisible=false;
+		try {
+			isVisible= isElementDisplayed(photo_popover);
+		}
+		catch(Exception e) {
+			e.printStackTrace();
+		}
+		return isVisible;
 	}
 	
 	public boolean isSaveButtonVisible() {
@@ -389,6 +447,17 @@ public class MyProfilePage extends BaseFrame{
 			e.printStackTrace();
 		}
 		return isEnabled;
+	}
+	
+	public boolean isGravatarLinkVisible() {
+		boolean isVisible= false;
+		try {
+			isVisible= isElementDisplayed(gRavatar_Link);
+		}
+		catch(Exception e) {
+			e.printStackTrace();
+		}
+		return isVisible;
 	}
 	
 	public boolean isGravatarProfileLinkVisible() {
@@ -804,37 +873,45 @@ public class MyProfilePage extends BaseFrame{
 		return links;
 	}
 	
+	public boolean noURL_Element_Visibility() {
+		boolean isVisible=false;
+		try {
+			isVisible= isElementDisplayed(noURLLinks_class);
+		}
+		catch(Exception e) {
+			e.printStackTrace();
+		}
+		return isVisible;
+	}
 	
-//	public void delete_AddProfile_URL(String deleteURL) {
-//		try{
-//			for(WebElement ele:getElements(profileLinkList_CommonPath_xpath)) {
-//				System.out.println(ele.toString());
-//				String path= ele.toString();
-//				path= path.substring(0,path.length() - 1);
-//				String url= path+"/a/span[@class='profile-link__url']";
-////				String desc= path+"/a/span[@class='profile-link__title']";
-//				String delete= path+"/button";
-//				System.out.println("URL PATH: "+url);
-//				System.out.println("Delete PATH: "+delete);
-//				By newURL_xpath= By.xpath(url);
-//				By delete_xpath= By.xpath(delete);
-//				List<WebElement> newElement_url= getElements(newURL_xpath);
-//				List<WebElement> newElement_delete= getElements(delete_xpath);
-//				for(WebElement yellow: newElement_url) {
-//					if(yellow.getText().equalsIgnoreCase(deleteURL)) {
-//						String dello= yellow.toString().substring(0,path.length() - 1);
-//						System.out.println(yellow.getText());
-////						newElement_delete.click();
-//					}
-//				}
-//			}
-//			Thread.sleep(500);
-//		}
-//		catch(Exception e) {
-//			e.printStackTrace();
-//		}
-//		
-//	}
+	public void delete_AddProfile_URL(String deleteURL) {
+		try{
+			int count=1;
+			for(WebElement element:getElements(profileLinkList_CommonPath_xpath)) {
+				String split= element.toString();
+				String path= splitString(split, "-> xpath: ")[1];
+				path= path.substring(0,path.length() - 1)+"["+Integer.toString(count)+"]";
+				
+				String urlString= path.concat("/a/span[@class='profile-link__url']");
+				String deleteString= path.concat("/button");
+				WebElement newElement= getElement(By.xpath(urlString));
+				if(newElement.getText().equalsIgnoreCase(deleteURL)) {
+					WebElement newElementDelete= getElement(By.xpath(deleteString));
+					System.out.println("URL to be deleted : "+newElement.getText());
+					newElementDelete.click();
+					System.out.println("Deleted : "+newElement.getText());
+					break;
+				}
+				count+=1;
+				}
+			}
+				
+		catch(Exception e) {
+			e.printStackTrace();
+		}
+		
+	
+	}
 	
 
 }

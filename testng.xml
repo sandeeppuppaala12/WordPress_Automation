@@ -9,16 +9,20 @@
   <parameter name="pageTitle" value="My Profile — WordPress.com"></parameter>
   <parameter name="invalidUserMessage" value="User does not exist. Would you like to create a new account?"></parameter>
   <parameter name="invalidPassMessage" value="Oops, that's not the right password. Please try again!"></parameter>
-  <parameter name="displayName" value="sandeeppuppala12"></parameter>
   <parameter name="firstNameLabel" value="First name"></parameter>
   <parameter name="lastNameLabel" value="Last name"></parameter>
   <parameter name="displayLabel" value="Public display name"></parameter>
   <parameter name="descriptionLabel" value="About me"></parameter>
+  <parameter name="photoChangeStatus" value="Your profile photo is public."></parameter>
   <parameter name="gravatarProfileLink" value="https://en.gravatar.com/"></parameter>
   <parameter name="gravatarLoginLink" value="https://en.gravatar.com/site/login"></parameter>
   <parameter name="firstNameText" value="Sandeep"></parameter>
+  <parameter name="lastNameText" value="Puppala"></parameter>
+  <parameter name="displayName" value="Sandeep Puppala"></parameter>
+  <parameter name="description" value="Nature is a miracle"></parameter>
   <parameter name="createSite_URL" value="MyWorld.com"></parameter>
   <parameter name="createSite_Desc" value="Its a beautiful world"></parameter>
+  <parameter name="url_validationMessage" value="That link is already in your profile links. No changes were made."></parameter>
     <classes>
       <class name="Pages_Test.MyProfilePage_Tests"/>
     </classes>
