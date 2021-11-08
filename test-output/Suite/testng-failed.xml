@@ -27,8 +27,11 @@
       <class name="Pages_Test.MyProfilePage_Tests">
         <methods>
           <include name="afterMethod"/>
+          <include name="validateMyProfilePage_Links_GrAvatarProfileLink" invocation-numbers="0"/>
           <include name="initilizeBrowser"/>
+          <include name="validateMyProfilePage_Components_Visibility_ToggleButton" invocation-numbers="0"/>
           <include name="endBrowserInstance"/>
+          <include name="validateMyProfilePage_ProfileLink_Add_URL_AddSite_Button_Functionality_With_ExistingData" invocation-numbers="0"/>
           <include name="validateMyProfilePage_ProfileLink_Add_URL_AddSite_Button_Functionality_With_Valid_URL_Format_And_Description"/>
           <include name="validateMyProfilePage_ProfileLink_Add_URL_AddedSite_Delete_Functionality" invocation-numbers="0"/>
           <include name="initilizeReporting"/>

@@ -1,17 +1,1707 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="4" ignored="0" total="46" passed="42">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="167741" started-at="2021-11-03T16:48:23 IST" finished-at="2021-11-03T16:51:11 IST">
+  <suite name="Suite" duration-ms="496285" started-at="2021-11-08T11:36:23 IST" finished-at="2021-11-08T11:44:39 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="167741" started-at="2021-11-03T16:48:23 IST" finished-at="2021-11-03T16:51:11 IST">
+    <test name="Test" duration-ms="496285" started-at="2021-11-08T11:36:23 IST" finished-at="2021-11-08T11:44:39 IST">
       <class name="Pages_Test.MyProfilePage_Tests">
-        <test-method status="PASS" signature="initilizeReporting()[pri:0, instance:Pages_Test.MyProfilePage_Tests@3d285d7e]" name="initilizeReporting" is-config="true" duration-ms="402" started-at="2021-11-03T16:48:23 IST" finished-at="2021-11-03T16:48:23 IST">
+        <test-method status="PASS" signature="initilizeReporting()[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="initilizeReporting" is-config="true" duration-ms="366" started-at="2021-11-08T11:36:23 IST" finished-at="2021-11-08T11:36:23 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilizeReporting -->
-        <test-method status="PASS" signature="initilizeBrowser(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:Pages_Test.MyProfilePage_Tests@3d285d7e]" name="initilizeBrowser" is-config="true" duration-ms="6581" started-at="2021-11-03T16:48:23 IST" finished-at="2021-11-03T16:48:30 IST">
+        <test-method status="PASS" signature="initilizeBrowser(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="initilizeBrowser" is-config="true" duration-ms="5305" started-at="2021-11-08T11:36:23 IST" finished-at="2021-11-08T11:36:29 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://wordpress.com/me]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void Pages_Test.MyProfilePage_Tests.validateMyProfilePageTitle(java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method status="PASS" signature="validateMyProfilePageTitle(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="validateMyProfilePageTitle" duration-ms="5647" started-at="2021-11-08T11:36:29 IST" description="Validate MyProfile Page Title" finished-at="2021-11-08T11:36:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sandeep.puppaala@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[My Profile — WordPress.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMyProfilePageTitle -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="afterMethod" is-config="true" duration-ms="747" started-at="2021-11-08T11:36:34 IST" finished-at="2021-11-08T11:36:35 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateMyProfilePageTitle status=SUCCESS method=MyProfilePage_Tests.validateMyProfilePageTitle(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="initilizeBrowser(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="initilizeBrowser" is-config="true" duration-ms="3933" started-at="2021-11-08T11:36:35 IST" finished-at="2021-11-08T11:36:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://wordpress.com/me]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void Pages_Test.MyProfilePage_Tests.validateMyProfilePage_Components_Description_Field_Accepts_Values(java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method status="PASS" signature="validateMyProfilePage_Components_Description_Field_Accepts_Values(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="validateMyProfilePage_Components_Description_Field_Accepts_Values" duration-ms="5556" started-at="2021-11-08T11:36:39 IST" description="Validate if Description field displays description as per the input provided" finished-at="2021-11-08T11:36:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sandeep.puppaala@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Nature is a miracle]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMyProfilePage_Components_Description_Field_Accepts_Values -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="afterMethod" is-config="true" duration-ms="731" started-at="2021-11-08T11:36:44 IST" finished-at="2021-11-08T11:36:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateMyProfilePage_Components_Description_Field_Accepts_Values status=SUCCESS method=MyProfilePage_Tests.validateMyProfilePage_Components_Description_Field_Accepts_Values(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="initilizeBrowser(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="initilizeBrowser" is-config="true" duration-ms="3646" started-at="2021-11-08T11:36:45 IST" finished-at="2021-11-08T11:36:49 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://wordpress.com/me]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void Pages_Test.MyProfilePage_Tests.validateMyProfilePage_Components_DisplayName_With_SpecialCharacters(java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method status="PASS" signature="validateMyProfilePage_Components_DisplayName_With_SpecialCharacters(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="validateMyProfilePage_Components_DisplayName_With_SpecialCharacters" duration-ms="6611" started-at="2021-11-08T11:36:49 IST" description="Validate if Display name can contain Special characters" finished-at="2021-11-08T11:36:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sandeep.puppaala@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sandeep Puppala]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMyProfilePage_Components_DisplayName_With_SpecialCharacters -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="afterMethod" is-config="true" duration-ms="654" started-at="2021-11-08T11:36:55 IST" finished-at="2021-11-08T11:36:56 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateMyProfilePage_Components_DisplayName_With_SpecialCharacters status=SUCCESS method=MyProfilePage_Tests.validateMyProfilePage_Components_DisplayName_With_SpecialCharacters(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="initilizeBrowser(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="initilizeBrowser" is-config="true" duration-ms="3577" started-at="2021-11-08T11:36:56 IST" finished-at="2021-11-08T11:37:00 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://wordpress.com/me]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void Pages_Test.MyProfilePage_Tests.validateMyProfilePage_Components_Display_Field_Accepts_Values(java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method status="PASS" signature="validateMyProfilePage_Components_Display_Field_Accepts_Values(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="validateMyProfilePage_Components_Display_Field_Accepts_Values" duration-ms="4854" started-at="2021-11-08T11:37:00 IST" description="Validate if Display field displays display name as per the input provided" finished-at="2021-11-08T11:37:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sandeep.puppaala@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sandeep Puppala]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMyProfilePage_Components_Display_Field_Accepts_Values -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="afterMethod" is-config="true" duration-ms="674" started-at="2021-11-08T11:37:05 IST" finished-at="2021-11-08T11:37:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateMyProfilePage_Components_Display_Field_Accepts_Values status=SUCCESS method=MyProfilePage_Tests.validateMyProfilePage_Components_Display_Field_Accepts_Values(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="initilizeBrowser(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="initilizeBrowser" is-config="true" duration-ms="3342" started-at="2021-11-08T11:37:05 IST" finished-at="2021-11-08T11:37:09 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://wordpress.com/me]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void Pages_Test.MyProfilePage_Tests.validateMyProfilePage_Components_Editable_Description_Field(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method status="PASS" signature="validateMyProfilePage_Components_Editable_Description_Field(java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="validateMyProfilePage_Components_Editable_Description_Field" duration-ms="4740" started-at="2021-11-08T11:37:09 IST" description="Validate if Description Field is Editable" finished-at="2021-11-08T11:37:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sandeep.puppaala@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMyProfilePage_Components_Editable_Description_Field -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="afterMethod" is-config="true" duration-ms="661" started-at="2021-11-08T11:37:13 IST" finished-at="2021-11-08T11:37:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateMyProfilePage_Components_Editable_Description_Field status=SUCCESS method=MyProfilePage_Tests.validateMyProfilePage_Components_Editable_Description_Field(java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="initilizeBrowser(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="initilizeBrowser" is-config="true" duration-ms="3764" started-at="2021-11-08T11:37:14 IST" finished-at="2021-11-08T11:37:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://wordpress.com/me]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void Pages_Test.MyProfilePage_Tests.validateMyProfilePage_Components_Editable_DisplayName_Field(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method status="PASS" signature="validateMyProfilePage_Components_Editable_DisplayName_Field(java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="validateMyProfilePage_Components_Editable_DisplayName_Field" duration-ms="4896" started-at="2021-11-08T11:37:18 IST" description="Validate if Display Name field is Editable" finished-at="2021-11-08T11:37:23 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sandeep.puppaala@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMyProfilePage_Components_Editable_DisplayName_Field -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="afterMethod" is-config="true" duration-ms="664" started-at="2021-11-08T11:37:23 IST" finished-at="2021-11-08T11:37:23 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateMyProfilePage_Components_Editable_DisplayName_Field status=SUCCESS method=MyProfilePage_Tests.validateMyProfilePage_Components_Editable_DisplayName_Field(java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="initilizeBrowser(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="initilizeBrowser" is-config="true" duration-ms="3456" started-at="2021-11-08T11:37:23 IST" finished-at="2021-11-08T11:37:27 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://wordpress.com/me]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void Pages_Test.MyProfilePage_Tests.validateMyProfilePage_Components_Editable_FirstName_Field(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method status="PASS" signature="validateMyProfilePage_Components_Editable_FirstName_Field(java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="validateMyProfilePage_Components_Editable_FirstName_Field" duration-ms="4570" started-at="2021-11-08T11:37:27 IST" description="Validate if First Name field is Editable" finished-at="2021-11-08T11:37:31 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sandeep.puppaala@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMyProfilePage_Components_Editable_FirstName_Field -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="afterMethod" is-config="true" duration-ms="691" started-at="2021-11-08T11:37:31 IST" finished-at="2021-11-08T11:37:32 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateMyProfilePage_Components_Editable_FirstName_Field status=SUCCESS method=MyProfilePage_Tests.validateMyProfilePage_Components_Editable_FirstName_Field(java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="initilizeBrowser(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="initilizeBrowser" is-config="true" duration-ms="4176" started-at="2021-11-08T11:37:32 IST" finished-at="2021-11-08T11:37:36 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://wordpress.com/me]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void Pages_Test.MyProfilePage_Tests.validateMyProfilePage_Components_Editable_LastName_Field(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method status="PASS" signature="validateMyProfilePage_Components_Editable_LastName_Field(java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="validateMyProfilePage_Components_Editable_LastName_Field" duration-ms="4602" started-at="2021-11-08T11:37:36 IST" finished-at="2021-11-08T11:37:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sandeep.puppaala@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMyProfilePage_Components_Editable_LastName_Field -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="afterMethod" is-config="true" duration-ms="659" started-at="2021-11-08T11:37:41 IST" finished-at="2021-11-08T11:37:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateMyProfilePage_Components_Editable_LastName_Field status=SUCCESS method=MyProfilePage_Tests.validateMyProfilePage_Components_Editable_LastName_Field(java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="initilizeBrowser(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="initilizeBrowser" is-config="true" duration-ms="3394" started-at="2021-11-08T11:37:41 IST" finished-at="2021-11-08T11:37:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://wordpress.com/me]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void Pages_Test.MyProfilePage_Tests.validateMyProfilePage_Components_FirstName_Field_Accepts_Values(java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method status="PASS" signature="validateMyProfilePage_Components_FirstName_Field_Accepts_Values(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="validateMyProfilePage_Components_FirstName_Field_Accepts_Values" duration-ms="5014" started-at="2021-11-08T11:37:45 IST" description="Validate if First Name field displays First name as per the input provided" finished-at="2021-11-08T11:37:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sandeep.puppaala@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sandeep]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMyProfilePage_Components_FirstName_Field_Accepts_Values -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="afterMethod" is-config="true" duration-ms="656" started-at="2021-11-08T11:37:50 IST" finished-at="2021-11-08T11:37:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateMyProfilePage_Components_FirstName_Field_Accepts_Values status=SUCCESS method=MyProfilePage_Tests.validateMyProfilePage_Components_FirstName_Field_Accepts_Values(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="initilizeBrowser(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="initilizeBrowser" is-config="true" duration-ms="3253" started-at="2021-11-08T11:37:50 IST" finished-at="2021-11-08T11:37:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://wordpress.com/me]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void Pages_Test.MyProfilePage_Tests.validateMyProfilePage_Components_Label_Text_DisplayName(java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method status="PASS" signature="validateMyProfilePage_Components_Label_Text_DisplayName(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="validateMyProfilePage_Components_Label_Text_DisplayName" duration-ms="5128" started-at="2021-11-08T11:37:54 IST" description="Validate if Display Name Label is as per the input provided" finished-at="2021-11-08T11:37:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sandeep.puppaala@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Public display name]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMyProfilePage_Components_Label_Text_DisplayName -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="afterMethod" is-config="true" duration-ms="654" started-at="2021-11-08T11:37:59 IST" finished-at="2021-11-08T11:38:00 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateMyProfilePage_Components_Label_Text_DisplayName status=SUCCESS method=MyProfilePage_Tests.validateMyProfilePage_Components_Label_Text_DisplayName(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="initilizeBrowser(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="initilizeBrowser" is-config="true" duration-ms="3390" started-at="2021-11-08T11:38:00 IST" finished-at="2021-11-08T11:38:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://wordpress.com/me]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void Pages_Test.MyProfilePage_Tests.validateMyProfilePage_Components_Label_Text_FirstName(java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method status="PASS" signature="validateMyProfilePage_Components_Label_Text_FirstName(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="validateMyProfilePage_Components_Label_Text_FirstName" duration-ms="4776" started-at="2021-11-08T11:38:03 IST" description="Validate if First Name Label is as per the input provided" finished-at="2021-11-08T11:38:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sandeep.puppaala@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[First name]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMyProfilePage_Components_Label_Text_FirstName -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="afterMethod" is-config="true" duration-ms="659" started-at="2021-11-08T11:38:08 IST" finished-at="2021-11-08T11:38:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateMyProfilePage_Components_Label_Text_FirstName status=SUCCESS method=MyProfilePage_Tests.validateMyProfilePage_Components_Label_Text_FirstName(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="initilizeBrowser(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="initilizeBrowser" is-config="true" duration-ms="3562" started-at="2021-11-08T11:38:08 IST" finished-at="2021-11-08T11:38:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://wordpress.com/me]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void Pages_Test.MyProfilePage_Tests.validateMyProfilePage_Components_Label_Text_LastName(java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method status="PASS" signature="validateMyProfilePage_Components_Label_Text_LastName(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="validateMyProfilePage_Components_Label_Text_LastName" duration-ms="5101" started-at="2021-11-08T11:38:12 IST" description="Validate if Last Name Label is as per the input provided" finished-at="2021-11-08T11:38:17 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sandeep.puppaala@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Last name]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMyProfilePage_Components_Label_Text_LastName -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="afterMethod" is-config="true" duration-ms="657" started-at="2021-11-08T11:38:17 IST" finished-at="2021-11-08T11:38:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateMyProfilePage_Components_Label_Text_LastName status=SUCCESS method=MyProfilePage_Tests.validateMyProfilePage_Components_Label_Text_LastName(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="initilizeBrowser(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="initilizeBrowser" is-config="true" duration-ms="3446" started-at="2021-11-08T11:38:18 IST" finished-at="2021-11-08T11:38:21 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://wordpress.com/me]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void Pages_Test.MyProfilePage_Tests.validateMyProfilePage_Components_LastName_Field_Accepts_Values(java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method status="PASS" signature="validateMyProfilePage_Components_LastName_Field_Accepts_Values(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="validateMyProfilePage_Components_LastName_Field_Accepts_Values" duration-ms="5056" started-at="2021-11-08T11:38:21 IST" description="Validate if Last Name field displays First name as per the input provided" finished-at="2021-11-08T11:38:26 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sandeep.puppaala@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Puppala]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMyProfilePage_Components_LastName_Field_Accepts_Values -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="afterMethod" is-config="true" duration-ms="659" started-at="2021-11-08T11:38:26 IST" finished-at="2021-11-08T11:38:27 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateMyProfilePage_Components_LastName_Field_Accepts_Values status=SUCCESS method=MyProfilePage_Tests.validateMyProfilePage_Components_LastName_Field_Accepts_Values(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="initilizeBrowser(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="initilizeBrowser" is-config="true" duration-ms="4259" started-at="2021-11-08T11:38:27 IST" finished-at="2021-11-08T11:38:31 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://wordpress.com/me]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void Pages_Test.MyProfilePage_Tests.validateMyProfilePage_Components_PhotoStatus_Description_Message(java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method status="PASS" signature="validateMyProfilePage_Components_PhotoStatus_Description_Message(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="validateMyProfilePage_Components_PhotoStatus_Description_Message" duration-ms="4851" started-at="2021-11-08T11:38:31 IST" description="Validate if Profile photo status displays description as per the input provided" finished-at="2021-11-08T11:38:36 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sandeep.puppaala@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Your profile photo is public.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMyProfilePage_Components_PhotoStatus_Description_Message -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="afterMethod" is-config="true" duration-ms="655" started-at="2021-11-08T11:38:36 IST" finished-at="2021-11-08T11:38:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateMyProfilePage_Components_PhotoStatus_Description_Message status=SUCCESS method=MyProfilePage_Tests.validateMyProfilePage_Components_PhotoStatus_Description_Message(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="initilizeBrowser(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="initilizeBrowser" is-config="true" duration-ms="3530" started-at="2021-11-08T11:38:37 IST" finished-at="2021-11-08T11:38:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://wordpress.com/me]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void Pages_Test.MyProfilePage_Tests.validateMyProfilePage_Components_Visibility_AddProfileButton(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method status="PASS" signature="validateMyProfilePage_Components_Visibility_AddProfileButton(java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="validateMyProfilePage_Components_Visibility_AddProfileButton" duration-ms="4699" started-at="2021-11-08T11:38:40 IST" description="Validate if Add Profile Button is displayed" finished-at="2021-11-08T11:38:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sandeep.puppaala@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMyProfilePage_Components_Visibility_AddProfileButton -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="afterMethod" is-config="true" duration-ms="652" started-at="2021-11-08T11:38:45 IST" finished-at="2021-11-08T11:38:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateMyProfilePage_Components_Visibility_AddProfileButton status=SUCCESS method=MyProfilePage_Tests.validateMyProfilePage_Components_Visibility_AddProfileButton(java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="initilizeBrowser(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="initilizeBrowser" is-config="true" duration-ms="3487" started-at="2021-11-08T11:38:45 IST" finished-at="2021-11-08T11:38:49 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://wordpress.com/me]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void Pages_Test.MyProfilePage_Tests.validateMyProfilePage_Components_Visibility_AddProfile_AddURL_Button(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method status="PASS" signature="validateMyProfilePage_Components_Visibility_AddProfile_AddURL_Button(java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="validateMyProfilePage_Components_Visibility_AddProfile_AddURL_Button" duration-ms="5087" started-at="2021-11-08T11:38:49 IST" description="Validate if Add Profile- Add URL button is displayed" finished-at="2021-11-08T11:38:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sandeep.puppaala@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMyProfilePage_Components_Visibility_AddProfile_AddURL_Button -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="afterMethod" is-config="true" duration-ms="683" started-at="2021-11-08T11:38:54 IST" finished-at="2021-11-08T11:38:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateMyProfilePage_Components_Visibility_AddProfile_AddURL_Button status=SUCCESS method=MyProfilePage_Tests.validateMyProfilePage_Components_Visibility_AddProfile_AddURL_Button(java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="initilizeBrowser(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="initilizeBrowser" is-config="true" duration-ms="3332" started-at="2021-11-08T11:38:55 IST" finished-at="2021-11-08T11:38:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://wordpress.com/me]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void Pages_Test.MyProfilePage_Tests.validateMyProfilePage_Components_Visibility_ChangePhotoLink(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method status="PASS" signature="validateMyProfilePage_Components_Visibility_ChangePhotoLink(java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="validateMyProfilePage_Components_Visibility_ChangePhotoLink" duration-ms="4623" started-at="2021-11-08T11:38:58 IST" description="Validate if Change Photo link is Enabled " finished-at="2021-11-08T11:39:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sandeep.puppaala@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMyProfilePage_Components_Visibility_ChangePhotoLink -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="afterMethod" is-config="true" duration-ms="663" started-at="2021-11-08T11:39:03 IST" finished-at="2021-11-08T11:39:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateMyProfilePage_Components_Visibility_ChangePhotoLink status=SUCCESS method=MyProfilePage_Tests.validateMyProfilePage_Components_Visibility_ChangePhotoLink(java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="initilizeBrowser(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="initilizeBrowser" is-config="true" duration-ms="3586" started-at="2021-11-08T11:39:03 IST" finished-at="2021-11-08T11:39:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://wordpress.com/me]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void Pages_Test.MyProfilePage_Tests.validateMyProfilePage_Components_Visibility_Description_Field(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method status="PASS" signature="validateMyProfilePage_Components_Visibility_Description_Field(java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="validateMyProfilePage_Components_Visibility_Description_Field" duration-ms="4715" started-at="2021-11-08T11:39:07 IST" description="Validate if Description field is displayed" finished-at="2021-11-08T11:39:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sandeep.puppaala@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMyProfilePage_Components_Visibility_Description_Field -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="afterMethod" is-config="true" duration-ms="646" started-at="2021-11-08T11:39:12 IST" finished-at="2021-11-08T11:39:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateMyProfilePage_Components_Visibility_Description_Field status=SUCCESS method=MyProfilePage_Tests.validateMyProfilePage_Components_Visibility_Description_Field(java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="initilizeBrowser(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="initilizeBrowser" is-config="true" duration-ms="3763" started-at="2021-11-08T11:39:12 IST" finished-at="2021-11-08T11:39:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://wordpress.com/me]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void Pages_Test.MyProfilePage_Tests.validateMyProfilePage_Components_Visibility_DisplayName_Field(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method status="PASS" signature="validateMyProfilePage_Components_Visibility_DisplayName_Field(java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="validateMyProfilePage_Components_Visibility_DisplayName_Field" duration-ms="4858" started-at="2021-11-08T11:39:16 IST" description="Validate if Display Name field is displayed" finished-at="2021-11-08T11:39:21 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sandeep.puppaala@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMyProfilePage_Components_Visibility_DisplayName_Field -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="afterMethod" is-config="true" duration-ms="648" started-at="2021-11-08T11:39:21 IST" finished-at="2021-11-08T11:39:22 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateMyProfilePage_Components_Visibility_DisplayName_Field status=SUCCESS method=MyProfilePage_Tests.validateMyProfilePage_Components_Visibility_DisplayName_Field(java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="initilizeBrowser(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="initilizeBrowser" is-config="true" duration-ms="4087" started-at="2021-11-08T11:39:22 IST" finished-at="2021-11-08T11:39:26 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://wordpress.com/me]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void Pages_Test.MyProfilePage_Tests.validateMyProfilePage_Components_Visibility_FirstName_Field(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method status="PASS" signature="validateMyProfilePage_Components_Visibility_FirstName_Field(java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="validateMyProfilePage_Components_Visibility_FirstName_Field" duration-ms="5000" started-at="2021-11-08T11:39:26 IST" description="Validate if First Name field is displayed" finished-at="2021-11-08T11:39:31 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sandeep.puppaala@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMyProfilePage_Components_Visibility_FirstName_Field -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="afterMethod" is-config="true" duration-ms="654" started-at="2021-11-08T11:39:31 IST" finished-at="2021-11-08T11:39:31 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateMyProfilePage_Components_Visibility_FirstName_Field status=SUCCESS method=MyProfilePage_Tests.validateMyProfilePage_Components_Visibility_FirstName_Field(java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="initilizeBrowser(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="initilizeBrowser" is-config="true" duration-ms="3716" started-at="2021-11-08T11:39:31 IST" finished-at="2021-11-08T11:39:35 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://wordpress.com/me]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void Pages_Test.MyProfilePage_Tests.validateMyProfilePage_Components_Visibility_GrAvatarLink(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method status="PASS" signature="validateMyProfilePage_Components_Visibility_GrAvatarLink(java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="validateMyProfilePage_Components_Visibility_GrAvatarLink" duration-ms="20027" started-at="2021-11-08T11:39:35 IST" description="Validate if Gravatar link is displayed after clicking Popover Button" finished-at="2021-11-08T11:39:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sandeep.puppaala@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMyProfilePage_Components_Visibility_GrAvatarLink -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="afterMethod" is-config="true" duration-ms="652" started-at="2021-11-08T11:39:55 IST" finished-at="2021-11-08T11:39:56 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateMyProfilePage_Components_Visibility_GrAvatarLink status=SUCCESS method=MyProfilePage_Tests.validateMyProfilePage_Components_Visibility_GrAvatarLink(java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="initilizeBrowser(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="initilizeBrowser" is-config="true" duration-ms="3494" started-at="2021-11-08T11:39:56 IST" finished-at="2021-11-08T11:39:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://wordpress.com/me]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void Pages_Test.MyProfilePage_Tests.validateMyProfilePage_Components_Visibility_GravatarProfileDeleteLink(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method status="PASS" signature="validateMyProfilePage_Components_Visibility_GravatarProfileDeleteLink(java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="validateMyProfilePage_Components_Visibility_GravatarProfileDeleteLink" duration-ms="4869" started-at="2021-11-08T11:39:59 IST" description="Validate if Gravatar Profile Delete Link is displayed" finished-at="2021-11-08T11:40:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sandeep.puppaala@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMyProfilePage_Components_Visibility_GravatarProfileDeleteLink -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="afterMethod" is-config="true" duration-ms="657" started-at="2021-11-08T11:40:04 IST" finished-at="2021-11-08T11:40:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateMyProfilePage_Components_Visibility_GravatarProfileDeleteLink status=SUCCESS method=MyProfilePage_Tests.validateMyProfilePage_Components_Visibility_GravatarProfileDeleteLink(java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="initilizeBrowser(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="initilizeBrowser" is-config="true" duration-ms="3824" started-at="2021-11-08T11:40:05 IST" finished-at="2021-11-08T11:40:09 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://wordpress.com/me]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void Pages_Test.MyProfilePage_Tests.validateMyProfilePage_Components_Visibility_HelpButton(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method status="PASS" signature="validateMyProfilePage_Components_Visibility_HelpButton(java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="validateMyProfilePage_Components_Visibility_HelpButton" duration-ms="4907" started-at="2021-11-08T11:40:09 IST" description="Validate if Help button is displayed" finished-at="2021-11-08T11:40:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sandeep.puppaala@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMyProfilePage_Components_Visibility_HelpButton -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="afterMethod" is-config="true" duration-ms="665" started-at="2021-11-08T11:40:13 IST" finished-at="2021-11-08T11:40:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateMyProfilePage_Components_Visibility_HelpButton status=SUCCESS method=MyProfilePage_Tests.validateMyProfilePage_Components_Visibility_HelpButton(java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="initilizeBrowser(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="initilizeBrowser" is-config="true" duration-ms="3332" started-at="2021-11-08T11:40:14 IST" finished-at="2021-11-08T11:40:17 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://wordpress.com/me]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void Pages_Test.MyProfilePage_Tests.validateMyProfilePage_Components_Visibility_LastName_Field(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method status="PASS" signature="validateMyProfilePage_Components_Visibility_LastName_Field(java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="validateMyProfilePage_Components_Visibility_LastName_Field" duration-ms="5799" started-at="2021-11-08T11:40:17 IST" description="Validate if Last Name field is displayed" finished-at="2021-11-08T11:40:23 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sandeep.puppaala@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMyProfilePage_Components_Visibility_LastName_Field -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="afterMethod" is-config="true" duration-ms="797" started-at="2021-11-08T11:40:23 IST" finished-at="2021-11-08T11:40:24 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateMyProfilePage_Components_Visibility_LastName_Field status=SUCCESS method=MyProfilePage_Tests.validateMyProfilePage_Components_Visibility_LastName_Field(java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="initilizeBrowser(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="initilizeBrowser" is-config="true" duration-ms="3363" started-at="2021-11-08T11:40:24 IST" finished-at="2021-11-08T11:40:27 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://wordpress.com/me]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void Pages_Test.MyProfilePage_Tests.validateMyProfilePage_Components_Visibility_PopoverButton(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method status="PASS" signature="validateMyProfilePage_Components_Visibility_PopoverButton(java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="validateMyProfilePage_Components_Visibility_PopoverButton" duration-ms="5232" started-at="2021-11-08T11:40:27 IST" description="Validate if Popover Button is displayed" finished-at="2021-11-08T11:40:33 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sandeep.puppaala@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMyProfilePage_Components_Visibility_PopoverButton -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="afterMethod" is-config="true" duration-ms="633" started-at="2021-11-08T11:40:33 IST" finished-at="2021-11-08T11:40:33 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateMyProfilePage_Components_Visibility_PopoverButton status=SUCCESS method=MyProfilePage_Tests.validateMyProfilePage_Components_Visibility_PopoverButton(java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="initilizeBrowser(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="initilizeBrowser" is-config="true" duration-ms="3481" started-at="2021-11-08T11:40:33 IST" finished-at="2021-11-08T11:40:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://wordpress.com/me]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void Pages_Test.MyProfilePage_Tests.validateMyProfilePage_Components_Visibility_SaveDetailsButton(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method status="PASS" signature="validateMyProfilePage_Components_Visibility_SaveDetailsButton(java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="validateMyProfilePage_Components_Visibility_SaveDetailsButton" duration-ms="5198" started-at="2021-11-08T11:40:37 IST" description="Validate if Save Details Button is displayed" finished-at="2021-11-08T11:40:42 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sandeep.puppaala@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMyProfilePage_Components_Visibility_SaveDetailsButton -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="afterMethod" is-config="true" duration-ms="655" started-at="2021-11-08T11:40:42 IST" finished-at="2021-11-08T11:40:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateMyProfilePage_Components_Visibility_SaveDetailsButton status=SUCCESS method=MyProfilePage_Tests.validateMyProfilePage_Components_Visibility_SaveDetailsButton(java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="initilizeBrowser(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="initilizeBrowser" is-config="true" duration-ms="3295" started-at="2021-11-08T11:40:43 IST" finished-at="2021-11-08T11:40:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://wordpress.com/me]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void Pages_Test.MyProfilePage_Tests.validateMyProfilePage_Components_Visibility_ToggleButton(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method status="FAIL" signature="validateMyProfilePage_Components_Visibility_ToggleButton(java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="validateMyProfilePage_Components_Visibility_ToggleButton" duration-ms="4739" started-at="2021-11-08T11:40:46 IST" description="Validate if Toggle Button is displayed" finished-at="2021-11-08T11:40:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sandeep.puppaala@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password@123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertTrue(Assert.java:43)
+at org.testng.Assert.assertTrue(Assert.java:53)
+at Pages_Test.MyProfilePage_Tests.validateMyProfilePage_Components_Visibility_ToggleButton(MyProfilePage_Tests.java:84)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1249)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMyProfilePage_Components_Visibility_ToggleButton -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="afterMethod" is-config="true" duration-ms="859" started-at="2021-11-08T11:40:51 IST" finished-at="2021-11-08T11:40:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateMyProfilePage_Components_Visibility_ToggleButton status=FAILURE method=MyProfilePage_Tests.validateMyProfilePage_Components_Visibility_ToggleButton(java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="initilizeBrowser(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="initilizeBrowser" is-config="true" duration-ms="4135" started-at="2021-11-08T11:40:52 IST" finished-at="2021-11-08T11:40:56 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://wordpress.com/me]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void Pages_Test.MyProfilePage_Tests.validateMyProfilePage_Links_GrAvatarLoginLink(java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method status="PASS" signature="validateMyProfilePage_Links_GrAvatarLoginLink(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="validateMyProfilePage_Links_GrAvatarLoginLink" duration-ms="7160" started-at="2021-11-08T11:40:56 IST" description="Validate if Gravatar Login link is not broken" finished-at="2021-11-08T11:41:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sandeep.puppaala@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://en.gravatar.com/site/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMyProfilePage_Links_GrAvatarLoginLink -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="afterMethod" is-config="true" duration-ms="665" started-at="2021-11-08T11:41:03 IST" finished-at="2021-11-08T11:41:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateMyProfilePage_Links_GrAvatarLoginLink status=SUCCESS method=MyProfilePage_Tests.validateMyProfilePage_Links_GrAvatarLoginLink(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="initilizeBrowser(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="initilizeBrowser" is-config="true" duration-ms="3258" started-at="2021-11-08T11:41:03 IST" finished-at="2021-11-08T11:41:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://wordpress.com/me]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void Pages_Test.MyProfilePage_Tests.validateMyProfilePage_Links_GrAvatarProfileLink(java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method status="FAIL" signature="validateMyProfilePage_Links_GrAvatarProfileLink(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="validateMyProfilePage_Links_GrAvatarProfileLink" duration-ms="6694" started-at="2021-11-08T11:41:07 IST" description="Validate if Gravatar Profile link is not broken" finished-at="2021-11-08T11:41:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sandeep.puppaala@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://en.gravatar.com/]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://en.gravatar.com/] but found [https://en.gravatar.com/sandeeppuppala12]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://en.gravatar.com/] but found [https://en.gravatar.com/sandeeppuppala12]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:575)
+at org.testng.Assert.assertEquals(Assert.java:585)
+at Pages_Test.MyProfilePage_Tests.validateMyProfilePage_Links_GrAvatarProfileLink(MyProfilePage_Tests.java:260)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1249)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMyProfilePage_Links_GrAvatarProfileLink -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="afterMethod" is-config="true" duration-ms="830" started-at="2021-11-08T11:41:13 IST" finished-at="2021-11-08T11:41:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateMyProfilePage_Links_GrAvatarProfileLink status=FAILURE method=MyProfilePage_Tests.validateMyProfilePage_Links_GrAvatarProfileLink(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="initilizeBrowser(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="initilizeBrowser" is-config="true" duration-ms="3661" started-at="2021-11-08T11:41:14 IST" finished-at="2021-11-08T11:41:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://wordpress.com/me]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void Pages_Test.MyProfilePage_Tests.validateMyProfilePage_NoURLText_Visibility_Before_ProfileLink_Add_URL_AddSite_Functionality(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method status="PASS" signature="validateMyProfilePage_NoURLText_Visibility_Before_ProfileLink_Add_URL_AddSite_Functionality(java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="validateMyProfilePage_NoURLText_Visibility_Before_ProfileLink_Add_URL_AddSite_Functionality" duration-ms="19912" started-at="2021-11-08T11:41:18 IST" description="Validate if No URL Text is Present before adding Profile Link- Add URL- Add Site" finished-at="2021-11-08T11:41:38 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sandeep.puppaala@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMyProfilePage_NoURLText_Visibility_Before_ProfileLink_Add_URL_AddSite_Functionality -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="afterMethod" is-config="true" duration-ms="666" started-at="2021-11-08T11:41:38 IST" finished-at="2021-11-08T11:41:38 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateMyProfilePage_NoURLText_Visibility_Before_ProfileLink_Add_URL_AddSite_Functionality status=SUCCESS method=MyProfilePage_Tests.validateMyProfilePage_NoURLText_Visibility_Before_ProfileLink_Add_URL_AddSite_Functionality(java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="initilizeBrowser(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="initilizeBrowser" is-config="true" duration-ms="3504" started-at="2021-11-08T11:41:38 IST" finished-at="2021-11-08T11:41:42 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://wordpress.com/me]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void Pages_Test.MyProfilePage_Tests.validateMyProfilePage_ProfileLink_Add_URL_AddSite_Button_Functionality_With_ExistingData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method status="FAIL" signature="validateMyProfilePage_ProfileLink_Add_URL_AddSite_Button_Functionality_With_ExistingData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="validateMyProfilePage_ProfileLink_Add_URL_AddSite_Button_Functionality_With_ExistingData" duration-ms="20953" started-at="2021-11-08T11:41:42 IST" description="Validate Profile Link- Add URL- Add Site Button Functionality with existing data" finished-at="2021-11-08T11:42:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sandeep.puppaala@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[MyWorld.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Its a beautiful world]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[That link is already in your profile links. No changes were made.]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertTrue(Assert.java:43)
+at org.testng.Assert.assertTrue(Assert.java:53)
+at Pages_Test.MyProfilePage_Tests.validateMyProfilePage_ProfileLink_Add_URL_AddSite_Button_Functionality_With_ExistingData(MyProfilePage_Tests.java:385)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1249)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMyProfilePage_ProfileLink_Add_URL_AddSite_Button_Functionality_With_ExistingData -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="afterMethod" is-config="true" duration-ms="815" started-at="2021-11-08T11:42:03 IST" finished-at="2021-11-08T11:42:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateMyProfilePage_ProfileLink_Add_URL_AddSite_Button_Functionality_With_ExistingData status=FAILURE method=MyProfilePage_Tests.validateMyProfilePage_ProfileLink_Add_URL_AddSite_Button_Functionality_With_ExistingData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="initilizeBrowser(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="initilizeBrowser" is-config="true" duration-ms="3229" started-at="2021-11-08T11:42:04 IST" finished-at="2021-11-08T11:42:07 IST">
           <params>
             <param index="0">
               <value>
@@ -32,7 +1722,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilizeBrowser -->
-        <test-method status="PASS" signature="validateMyProfilePage_ProfileLink_Add_URL_AddSite_Button_Functionality_With_Valid_URL_Format_And_Description(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@3d285d7e]" name="validateMyProfilePage_ProfileLink_Add_URL_AddSite_Button_Functionality_With_Valid_URL_Format_And_Description" duration-ms="52680" started-at="2021-11-03T16:48:30 IST" description="Validate if Profile Link- Add URL- Add Site Button Functionality with Valid URL and Description text" finished-at="2021-11-03T16:49:22 IST">
+        <test-method status="PASS" signature="validateMyProfilePage_ProfileLink_Add_URL_AddSite_Button_Functionality_With_Valid_URL_Format_And_Description(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="validateMyProfilePage_ProfileLink_Add_URL_AddSite_Button_Functionality_With_Valid_URL_Format_And_Description" duration-ms="5945" started-at="2021-11-08T11:42:07 IST" description="Validate Profile Link- Add URL- Add Site Button Functionality with Valid URL and Description text" finished-at="2021-11-08T11:42:13 IST">
           <params>
             <param index="0">
               <value>
@@ -58,18 +1748,604 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateMyProfilePage_ProfileLink_Add_URL_AddSite_Button_Functionality_With_Valid_URL_Format_And_Description -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Pages_Test.MyProfilePage_Tests@3d285d7e]" name="afterMethod" is-config="true" duration-ms="804" started-at="2021-11-03T16:49:22 IST" finished-at="2021-11-03T16:49:23 IST">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="afterMethod" is-config="true" duration-ms="674" started-at="2021-11-08T11:42:13 IST" finished-at="2021-11-08T11:42:14 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=validateMyProfilePage_ProfileLink_Add_URL_AddSite_Button_Functionality_With_Valid_URL_Format_And_Description status=SUCCESS method=MyProfilePage_Tests.validateMyProfilePage_ProfileLink_Add_URL_AddSite_Button_Functionality_With_Valid_URL_Format_And_Description(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@3d285d7e] output={null}]]]>
+                <![CDATA[[TestResult name=validateMyProfilePage_ProfileLink_Add_URL_AddSite_Button_Functionality_With_Valid_URL_Format_And_Description status=SUCCESS method=MyProfilePage_Tests.validateMyProfilePage_ProfileLink_Add_URL_AddSite_Button_Functionality_With_Valid_URL_Format_And_Description(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="initilizeBrowser(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:Pages_Test.MyProfilePage_Tests@3d285d7e]" name="initilizeBrowser" is-config="true" duration-ms="4886" started-at="2021-11-03T16:49:23 IST" finished-at="2021-11-03T16:49:28 IST">
+        <test-method status="PASS" signature="initilizeBrowser(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="initilizeBrowser" is-config="true" duration-ms="3709" started-at="2021-11-08T11:42:14 IST" finished-at="2021-11-08T11:42:17 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://wordpress.com/me]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void Pages_Test.MyProfilePage_Tests.validateMyProfilePage_ProfileLink_Add_URL_AddSite_Button_isEnabled(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method status="PASS" signature="validateMyProfilePage_ProfileLink_Add_URL_AddSite_Button_isEnabled(java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="validateMyProfilePage_ProfileLink_Add_URL_AddSite_Button_isEnabled" duration-ms="5740" started-at="2021-11-08T11:42:17 IST" description="Validate if Profile Link- Add URL- Add Site Button is Enabled without entering any values in the URL and Description" finished-at="2021-11-08T11:42:23 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sandeep.puppaala@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMyProfilePage_ProfileLink_Add_URL_AddSite_Button_isEnabled -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="afterMethod" is-config="true" duration-ms="659" started-at="2021-11-08T11:42:23 IST" finished-at="2021-11-08T11:42:24 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateMyProfilePage_ProfileLink_Add_URL_AddSite_Button_isEnabled status=SUCCESS method=MyProfilePage_Tests.validateMyProfilePage_ProfileLink_Add_URL_AddSite_Button_isEnabled(java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="initilizeBrowser(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="initilizeBrowser" is-config="true" duration-ms="3586" started-at="2021-11-08T11:42:24 IST" finished-at="2021-11-08T11:42:27 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://wordpress.com/me]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void Pages_Test.MyProfilePage_Tests.validateMyProfilePage_ProfileLink_Add_URL_AddSite_Button_isEnabled_With_Invalide_URL_Format(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method status="PASS" signature="validateMyProfilePage_ProfileLink_Add_URL_AddSite_Button_isEnabled_With_Invalide_URL_Format(java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="validateMyProfilePage_ProfileLink_Add_URL_AddSite_Button_isEnabled_With_Invalide_URL_Format" duration-ms="5594" started-at="2021-11-08T11:42:27 IST" description="Validate if Profile Link- Add URL- Add Site Button is Enabled without adding &#039;.com&#039; in the URL and Description text" finished-at="2021-11-08T11:42:33 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sandeep.puppaala@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMyProfilePage_ProfileLink_Add_URL_AddSite_Button_isEnabled_With_Invalide_URL_Format -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="afterMethod" is-config="true" duration-ms="662" started-at="2021-11-08T11:42:33 IST" finished-at="2021-11-08T11:42:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateMyProfilePage_ProfileLink_Add_URL_AddSite_Button_isEnabled_With_Invalide_URL_Format status=SUCCESS method=MyProfilePage_Tests.validateMyProfilePage_ProfileLink_Add_URL_AddSite_Button_isEnabled_With_Invalide_URL_Format(java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="initilizeBrowser(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="initilizeBrowser" is-config="true" duration-ms="3429" started-at="2021-11-08T11:42:34 IST" finished-at="2021-11-08T11:42:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://wordpress.com/me]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void Pages_Test.MyProfilePage_Tests.validateMyProfilePage_ProfileLink_Add_WordPressSite_Functionality(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method status="PASS" signature="validateMyProfilePage_ProfileLink_Add_WordPressSite_Functionality(java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="validateMyProfilePage_ProfileLink_Add_WordPressSite_Functionality" duration-ms="6381" started-at="2021-11-08T11:42:37 IST" description="Validate Profile Link- Add WordPress Site- Functionality " finished-at="2021-11-08T11:42:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sandeep.puppaala@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMyProfilePage_ProfileLink_Add_WordPressSite_Functionality -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="afterMethod" is-config="true" duration-ms="673" started-at="2021-11-08T11:42:43 IST" finished-at="2021-11-08T11:42:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateMyProfilePage_ProfileLink_Add_WordPressSite_Functionality status=SUCCESS method=MyProfilePage_Tests.validateMyProfilePage_ProfileLink_Add_WordPressSite_Functionality(java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="initilizeBrowser(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="initilizeBrowser" is-config="true" duration-ms="3829" started-at="2021-11-08T11:42:44 IST" finished-at="2021-11-08T11:42:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://wordpress.com/me]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void Pages_Test.MyProfilePage_Tests.validateMyProfilePage_SaveDetailsButton_Functionality_AnyText_Field_Space(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method status="PASS" signature="validateMyProfilePage_SaveDetailsButton_Functionality_AnyText_Field_Space(java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="validateMyProfilePage_SaveDetailsButton_Functionality_AnyText_Field_Space" duration-ms="4815" started-at="2021-11-08T11:42:48 IST" description="Validate if Save details button is enabled by changing FirstName field with a Space" finished-at="2021-11-08T11:42:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sandeep.puppaala@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMyProfilePage_SaveDetailsButton_Functionality_AnyText_Field_Space -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="afterMethod" is-config="true" duration-ms="678" started-at="2021-11-08T11:42:53 IST" finished-at="2021-11-08T11:42:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateMyProfilePage_SaveDetailsButton_Functionality_AnyText_Field_Space status=SUCCESS method=MyProfilePage_Tests.validateMyProfilePage_SaveDetailsButton_Functionality_AnyText_Field_Space(java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="initilizeBrowser(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="initilizeBrowser" is-config="true" duration-ms="4400" started-at="2021-11-08T11:42:53 IST" finished-at="2021-11-08T11:42:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://wordpress.com/me]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void Pages_Test.MyProfilePage_Tests.validateMyProfilePage_SaveDetailsButton_Functionality_AnyText_Field_Text(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method status="PASS" signature="validateMyProfilePage_SaveDetailsButton_Functionality_AnyText_Field_Text(java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="validateMyProfilePage_SaveDetailsButton_Functionality_AnyText_Field_Text" duration-ms="4871" started-at="2021-11-08T11:42:58 IST" description="Validate if Save details button is enabled by changing FirstName field with a Text" finished-at="2021-11-08T11:43:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sandeep.puppaala@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMyProfilePage_SaveDetailsButton_Functionality_AnyText_Field_Text -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="afterMethod" is-config="true" duration-ms="660" started-at="2021-11-08T11:43:03 IST" finished-at="2021-11-08T11:43:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateMyProfilePage_SaveDetailsButton_Functionality_AnyText_Field_Text status=SUCCESS method=MyProfilePage_Tests.validateMyProfilePage_SaveDetailsButton_Functionality_AnyText_Field_Text(java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="initilizeBrowser(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="initilizeBrowser" is-config="true" duration-ms="3480" started-at="2021-11-08T11:43:03 IST" finished-at="2021-11-08T11:43:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://wordpress.com/me]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void Pages_Test.MyProfilePage_Tests.validateMyProfilePage_SaveDetailsButton_Functionality_Change_Toggle_Button(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method status="PASS" signature="validateMyProfilePage_SaveDetailsButton_Functionality_Change_Toggle_Button(java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="validateMyProfilePage_SaveDetailsButton_Functionality_Change_Toggle_Button" duration-ms="4768" started-at="2021-11-08T11:43:07 IST" description="Validate if Save details button is enabled by changing Toggle Button" finished-at="2021-11-08T11:43:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sandeep.puppaala@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMyProfilePage_SaveDetailsButton_Functionality_Change_Toggle_Button -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="afterMethod" is-config="true" duration-ms="659" started-at="2021-11-08T11:43:12 IST" finished-at="2021-11-08T11:43:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateMyProfilePage_SaveDetailsButton_Functionality_Change_Toggle_Button status=SUCCESS method=MyProfilePage_Tests.validateMyProfilePage_SaveDetailsButton_Functionality_Change_Toggle_Button(java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="initilizeBrowser(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="initilizeBrowser" is-config="true" duration-ms="3673" started-at="2021-11-08T11:43:12 IST" finished-at="2021-11-08T11:43:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://wordpress.com/me]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void Pages_Test.MyProfilePage_Tests.validateMyProfilePage_SaveDetailsButton_Functionality_Default(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method status="PASS" signature="validateMyProfilePage_SaveDetailsButton_Functionality_Default(java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="validateMyProfilePage_SaveDetailsButton_Functionality_Default" duration-ms="4599" started-at="2021-11-08T11:43:16 IST" description="Validate if Save details button is enabled without changing any default field values" finished-at="2021-11-08T11:43:20 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sandeep.puppaala@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMyProfilePage_SaveDetailsButton_Functionality_Default -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="afterMethod" is-config="true" duration-ms="661" started-at="2021-11-08T11:43:20 IST" finished-at="2021-11-08T11:43:21 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateMyProfilePage_SaveDetailsButton_Functionality_Default status=SUCCESS method=MyProfilePage_Tests.validateMyProfilePage_SaveDetailsButton_Functionality_Default(java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="initilizeBrowser(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="initilizeBrowser" is-config="true" duration-ms="3275" started-at="2021-11-08T11:43:21 IST" finished-at="2021-11-08T11:43:24 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://wordpress.com/me]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void Pages_Test.MyProfilePage_Tests.validateMyProfilePage_SaveDetailsButton_Functionality_Enter_FirstName(java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method status="PASS" signature="validateMyProfilePage_SaveDetailsButton_Functionality_Enter_FirstName(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="validateMyProfilePage_SaveDetailsButton_Functionality_Enter_FirstName" duration-ms="19802" started-at="2021-11-08T11:43:24 IST" description="Validate if Save details button functionality by entering text in the First Name field" finished-at="2021-11-08T11:43:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sandeep.puppaala@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sandeep]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMyProfilePage_SaveDetailsButton_Functionality_Enter_FirstName -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="afterMethod" is-config="true" duration-ms="663" started-at="2021-11-08T11:43:44 IST" finished-at="2021-11-08T11:43:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateMyProfilePage_SaveDetailsButton_Functionality_Enter_FirstName status=SUCCESS method=MyProfilePage_Tests.validateMyProfilePage_SaveDetailsButton_Functionality_Enter_FirstName(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="initilizeBrowser(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="initilizeBrowser" is-config="true" duration-ms="3202" started-at="2021-11-08T11:43:45 IST" finished-at="2021-11-08T11:43:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://wordpress.com/me]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void Pages_Test.MyProfilePage_Tests.validateMyProfilePage_Components_Label_Text_Description(java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method status="PASS" signature="validateMyProfilePage_Components_Label_Text_Description(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="validateMyProfilePage_Components_Label_Text_Description" duration-ms="4639" started-at="2021-11-08T11:43:48 IST" description="Validate if Description Label is as per the input provided" finished-at="2021-11-08T11:43:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sandeep.puppaala@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[About me]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMyProfilePage_Components_Label_Text_Description -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="afterMethod" is-config="true" duration-ms="659" started-at="2021-11-08T11:43:53 IST" finished-at="2021-11-08T11:43:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateMyProfilePage_Components_Label_Text_Description status=SUCCESS method=MyProfilePage_Tests.validateMyProfilePage_Components_Label_Text_Description(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="initilizeBrowser(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="initilizeBrowser" is-config="true" duration-ms="4461" started-at="2021-11-08T11:43:53 IST" finished-at="2021-11-08T11:43:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://wordpress.com/me]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void Pages_Test.MyProfilePage_Tests.validateMyProfilePage_Components_Visibility_AddProfile_AddWordPressSite_Button(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method status="PASS" signature="validateMyProfilePage_Components_Visibility_AddProfile_AddWordPressSite_Button(java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="validateMyProfilePage_Components_Visibility_AddProfile_AddWordPressSite_Button" duration-ms="4697" started-at="2021-11-08T11:43:58 IST" description="Validate if Add Profile- Add Word Press Site button is displayed" finished-at="2021-11-08T11:44:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sandeep.puppaala@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMyProfilePage_Components_Visibility_AddProfile_AddWordPressSite_Button -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="afterMethod" is-config="true" duration-ms="650" started-at="2021-11-08T11:44:03 IST" finished-at="2021-11-08T11:44:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateMyProfilePage_Components_Visibility_AddProfile_AddWordPressSite_Button status=SUCCESS method=MyProfilePage_Tests.validateMyProfilePage_Components_Visibility_AddProfile_AddWordPressSite_Button(java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="initilizeBrowser(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="initilizeBrowser" is-config="true" duration-ms="3551" started-at="2021-11-08T11:44:03 IST" finished-at="2021-11-08T11:44:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://wordpress.com/me]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void Pages_Test.MyProfilePage_Tests.validateMyProfilePage_Components_Visibility_GravatarProfileLink(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method status="PASS" signature="validateMyProfilePage_Components_Visibility_GravatarProfileLink(java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="validateMyProfilePage_Components_Visibility_GravatarProfileLink" duration-ms="5001" started-at="2021-11-08T11:44:07 IST" description="Validate if Gravatar Profile Link is displayed" finished-at="2021-11-08T11:44:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sandeep.puppaala@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMyProfilePage_Components_Visibility_GravatarProfileLink -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="afterMethod" is-config="true" duration-ms="653" started-at="2021-11-08T11:44:12 IST" finished-at="2021-11-08T11:44:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateMyProfilePage_Components_Visibility_GravatarProfileLink status=SUCCESS method=MyProfilePage_Tests.validateMyProfilePage_Components_Visibility_GravatarProfileLink(java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="initilizeBrowser(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="initilizeBrowser" is-config="true" duration-ms="3342" started-at="2021-11-08T11:44:12 IST" finished-at="2021-11-08T11:44:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://wordpress.com/me]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void Pages_Test.MyProfilePage_Tests.validateMyProfilePage_ProfileLink_Add_URL_AddSite_Button_isEnabled_With_Valid_URL_Format_And_Description(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method status="PASS" signature="validateMyProfilePage_ProfileLink_Add_URL_AddSite_Button_isEnabled_With_Valid_URL_Format_And_Description(java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="validateMyProfilePage_ProfileLink_Add_URL_AddSite_Button_isEnabled_With_Valid_URL_Format_And_Description" duration-ms="5456" started-at="2021-11-08T11:44:16 IST" description="Validate if Profile Link- Add URL- Add Site Button is Enabled without adding &#039;.com&#039; in the URL and Description text" finished-at="2021-11-08T11:44:21 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sandeep.puppaala@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMyProfilePage_ProfileLink_Add_URL_AddSite_Button_isEnabled_With_Valid_URL_Format_And_Description -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="afterMethod" is-config="true" duration-ms="664" started-at="2021-11-08T11:44:21 IST" finished-at="2021-11-08T11:44:22 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateMyProfilePage_ProfileLink_Add_URL_AddSite_Button_isEnabled_With_Valid_URL_Format_And_Description status=SUCCESS method=MyProfilePage_Tests.validateMyProfilePage_ProfileLink_Add_URL_AddSite_Button_isEnabled_With_Valid_URL_Format_And_Description(java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="initilizeBrowser(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="initilizeBrowser" is-config="true" duration-ms="3404" started-at="2021-11-08T11:44:22 IST" finished-at="2021-11-08T11:44:25 IST">
           <params>
             <param index="0">
               <value>
@@ -90,7 +2366,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilizeBrowser -->
-        <test-method status="PASS" signature="validateMyProfilePage_ProfileLink_Add_URL_AddedSite_Delete_Functionality(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@3d285d7e]" name="validateMyProfilePage_ProfileLink_Add_URL_AddedSite_Delete_Functionality" duration-ms="101852" started-at="2021-11-03T16:49:28 IST" description="Validate if Add Profile Links- Delete URL Functionality" depends-on-methods="Pages_Test.MyProfilePage_Tests.validateMyProfilePage_ProfileLink_Add_URL_AddSite_Button_Functionality_With_Valid_URL_Format_And_Description" finished-at="2021-11-03T16:51:10 IST">
+        <test-method status="FAIL" signature="validateMyProfilePage_ProfileLink_Add_URL_AddedSite_Delete_Functionality(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="validateMyProfilePage_ProfileLink_Add_URL_AddedSite_Delete_Functionality" duration-ms="4688" started-at="2021-11-08T11:44:25 IST" description="Validate Add Profile Links- Delete URL Functionality" depends-on-methods="Pages_Test.MyProfilePage_Tests.validateMyProfilePage_ProfileLink_Add_URL_AddSite_Button_Functionality_With_Valid_URL_Format_And_Description" finished-at="2021-11-08T11:44:30 IST">
           <params>
             <param index="0">
               <value>
@@ -108,21 +2384,116 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertFalse(Assert.java:65)
+at org.testng.Assert.assertFalse(Assert.java:75)
+at Pages_Test.MyProfilePage_Tests.validateMyProfilePage_ProfileLink_Add_URL_AddedSite_Delete_Functionality(MyProfilePage_Tests.java:397)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1249)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateMyProfilePage_ProfileLink_Add_URL_AddedSite_Delete_Functionality -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Pages_Test.MyProfilePage_Tests@3d285d7e]" name="afterMethod" is-config="true" duration-ms="866" started-at="2021-11-03T16:51:10 IST" finished-at="2021-11-03T16:51:11 IST">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="afterMethod" is-config="true" duration-ms="830" started-at="2021-11-08T11:44:30 IST" finished-at="2021-11-08T11:44:31 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=validateMyProfilePage_ProfileLink_Add_URL_AddedSite_Delete_Functionality status=SUCCESS method=MyProfilePage_Tests.validateMyProfilePage_ProfileLink_Add_URL_AddedSite_Delete_Functionality(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@3d285d7e] output={null}]]]>
+                <![CDATA[[TestResult name=validateMyProfilePage_ProfileLink_Add_URL_AddedSite_Delete_Functionality status=FAILURE method=MyProfilePage_Tests.validateMyProfilePage_ProfileLink_Add_URL_AddedSite_Delete_Functionality(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="endBrowserInstance()[pri:0, instance:Pages_Test.MyProfilePage_Tests@3d285d7e]" name="endBrowserInstance" is-config="true" duration-ms="801" started-at="2021-11-03T16:51:11 IST" finished-at="2021-11-03T16:51:12 IST">
+        <test-method status="PASS" signature="initilizeBrowser(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="initilizeBrowser" is-config="true" duration-ms="3297" started-at="2021-11-08T11:44:31 IST" finished-at="2021-11-08T11:44:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://wordpress.com/me]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void Pages_Test.MyProfilePage_Tests.validateMyProfilePage_SaveDetailsButton_Functionality_Assert_Saved_Data(java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method status="PASS" signature="validateMyProfilePage_SaveDetailsButton_Functionality_Assert_Saved_Data(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="validateMyProfilePage_SaveDetailsButton_Functionality_Assert_Saved_Data" duration-ms="4700" started-at="2021-11-08T11:44:34 IST" description="Validate if Save details are reflecting in the First Name field" depends-on-methods="Pages_Test.MyProfilePage_Tests.validateMyProfilePage_SaveDetailsButton_Functionality_Enter_FirstName" finished-at="2021-11-08T11:44:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sandeep.puppaala@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sandeep]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMyProfilePage_SaveDetailsButton_Functionality_Assert_Saved_Data -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="afterMethod" is-config="true" duration-ms="703" started-at="2021-11-08T11:44:39 IST" finished-at="2021-11-08T11:44:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateMyProfilePage_SaveDetailsButton_Functionality_Assert_Saved_Data status=SUCCESS method=MyProfilePage_Tests.validateMyProfilePage_SaveDetailsButton_Functionality_Assert_Saved_Data(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="endBrowserInstance()[pri:0, instance:Pages_Test.MyProfilePage_Tests@4d95d2a2]" name="endBrowserInstance" is-config="true" duration-ms="453" started-at="2021-11-08T11:44:40 IST" finished-at="2021-11-08T11:44:40 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endBrowserInstance -->
