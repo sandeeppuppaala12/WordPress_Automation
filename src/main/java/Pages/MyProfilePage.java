@@ -23,8 +23,8 @@ public class MyProfilePage extends BaseFrame {
 	private By lastName = By.id("last_name");
 	private By displayName = By.id("display_name");
 	private By description = By.id("description");
-	private By toggleButton = By.id("inspector-toggle-control-0");
-	private By gRavatar_Link = By.linkText("Gravatar");
+	private By toggleButton = By.className("components-form-toggle__input");
+	private By gRavatar_Link = By.xpath("//div[4]/div/div[2]/p[1]/a");
 	private By photo_popover = By.className("popover__inner");
 	private By popover_button_xpath = By.xpath("//*[@id=\"primary\"]/main/div[2]/div/div[2]/button");
 	private By gRavatarProfile_Link = By.linkText("Gravatar profile");
@@ -391,6 +391,16 @@ public class MyProfilePage extends BaseFrame {
 			e.printStackTrace();
 		}
 		return isVisible;
+	}
+
+	public boolean isToggleButtonChecked() {
+		boolean isSelected = false;
+		try {
+			isSelected = getElement(toggleButton).isSelected();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return isSelected;
 	}
 
 	public boolean isToggleButtonEnabled() {
@@ -795,13 +805,13 @@ public class MyProfilePage extends BaseFrame {
 				String split = element.toString();
 				String path = splitString(split, "-> xpath: ")[1];
 				path = path.substring(0, path.length() - 1) + "[" + Integer.toString(count) + "]";
-
 				String urlString = path.concat("/a/span[@class='profile-link__url']");
 				String deleteString = path.concat("/button");
 				WebElement newElement = getElement(By.xpath(urlString));
 				if (newElement.getText().equalsIgnoreCase(deleteURL)) {
 					WebElement newElementDelete = getElement(By.xpath(deleteString));
 					newElementDelete.click();
+					expliciteWait("invisibility", By.xpath(deleteString));
 					break;
 				}
 				count += 1;

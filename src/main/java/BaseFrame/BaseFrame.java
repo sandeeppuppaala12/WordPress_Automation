@@ -65,8 +65,12 @@ public class BaseFrame extends Page_Abstraction {
 				wait.until(ExpectedConditions.presenceOfElementLocated(locator));
 			else if (condition.contains("visiblity"))
 				wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+			else if (condition.contains("visiblityAll"))
+				wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(locator));
 			else if (condition.contains("clickable"))
 				wait.until(ExpectedConditions.elementToBeClickable(locator));
+			else if (condition.contains("invisibility"))
+				wait.until(ExpectedConditions.invisibilityOfElementLocated(locator));
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -99,7 +103,6 @@ public class BaseFrame extends Page_Abstraction {
 	@Override
 	public void selectText(By locator, String text) {
 		try {
-			expliciteWait("visibility", locator);
 			Select select = new Select(getElement(locator));
 			if (text.contains("text")) {
 				select.selectByVisibleText(text);
@@ -118,7 +121,7 @@ public class BaseFrame extends Page_Abstraction {
 	@Override
 	public List<WebElement> getElements(By locator) {
 		try {
-			expliciteWait("visibility", locator);
+			expliciteWait("visibilityAll", locator);
 			return driver.findElements(locator);
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -143,7 +146,6 @@ public class BaseFrame extends Page_Abstraction {
 	@Override
 	public void sendKeys(By locator, String text) {
 		try {
-			expliciteWait("visibility", locator);
 			getElement(locator).clear();
 			getElement(locator).sendKeys(text);
 		} catch (Exception e) {
@@ -156,7 +158,6 @@ public class BaseFrame extends Page_Abstraction {
 	public boolean isElementDisplayed(By locator) {
 		boolean isVisible = true;
 		try {
-			expliciteWait("visibility", locator);
 			isVisible = getElement(locator).isDisplayed();
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -180,7 +181,6 @@ public class BaseFrame extends Page_Abstraction {
 	public String getAttribute(By locator, String attributeName) {
 		String attributeValue = "";
 		try {
-			expliciteWait("visibility", locator);
 			attributeValue = getElement(locator).getAttribute(attributeName).toString();
 		} catch (Exception e) {
 			e.printStackTrace();

@@ -78,10 +78,17 @@ public class MyProfilePage_Tests extends TestFrame {
 	}
 
 	@Parameters({ "uname", "pwd" })
-	@Test(description = "Validate if Toggle Button is displayed")
+	@Test(description = "Validate if Toggle Button is Visible")
 	public void validateMyProfilePage_Components_Visibility_ToggleButton(String uname, String pwd) {
 		MyProfilePage profile = page.getInstance(LoginPage.class).validLoginProcess(uname, pwd);
-		Assert.assertTrue(profile.isToggleButtonVisible());
+		Assert.assertFalse(profile.isToggleButtonVisible());
+	}
+
+	@Parameters({ "uname", "pwd" })
+	@Test(description = "Validate if Toggle Button is Selected")
+	public void validateMyProfilePage_Components_ToggleButton_Selection(String uname, String pwd) {
+		MyProfilePage profile = page.getInstance(LoginPage.class).validLoginProcess(uname, pwd);
+		Assert.assertFalse(profile.isToggleButtonChecked());
 	}
 
 	@Parameters({ "uname", "pwd" })
@@ -302,8 +309,7 @@ public class MyProfilePage_Tests extends TestFrame {
 	}
 
 	@Parameters({ "uname", "pwd", "firstNameText" })
-	@Test(description = "Validate if Save details are reflecting in the First Name field", 
-		dependsOnMethods = "validateMyProfilePage_SaveDetailsButton_Functionality_Enter_FirstName")
+	@Test(description = "Validate if Save details are reflecting in the First Name field", dependsOnMethods = "validateMyProfilePage_SaveDetailsButton_Functionality_Enter_FirstName")
 	public void validateMyProfilePage_SaveDetailsButton_Functionality_Assert_Saved_Data(String uname, String pwd,
 			String firstNameText) {
 		MyProfilePage profile = page.getInstance(LoginPage.class).validLoginProcess(uname, pwd);
@@ -374,8 +380,7 @@ public class MyProfilePage_Tests extends TestFrame {
 	}
 
 	@Parameters({ "uname", "pwd", "createSite_URL", "createSite_Desc", "url_validationMessage" })
-	@Test(description = "Validate Profile Link- Add URL- Add Site Button Functionality with existing data", 
-		dependsOnMethods = "validateMyProfilePage_ProfileLink_Add_URL_AddSite_Button_Functionality_With_Valid_URL_Format_And_Description")
+	@Test(description = "Validate Profile Link- Add URL- Add Site Button Functionality with existing data", dependsOnMethods = "validateMyProfilePage_ProfileLink_Add_URL_AddSite_Button_Functionality_With_Valid_URL_Format_And_Description")
 	public void validateMyProfilePage_ProfileLink_Add_URL_AddSite_Button_Functionality_With_ExistingData(String uname,
 			String pwd, String createSite_URL, String createSite_Desc, String url_validationMessage) {
 		MyProfilePage profile = page.getInstance(LoginPage.class).validLoginProcess(uname, pwd);
@@ -388,8 +393,7 @@ public class MyProfilePage_Tests extends TestFrame {
 	}
 
 	@Parameters({ "uname", "pwd", "createSite_URL" })
-	@Test(description = "Validate Add Profile Links- Delete URL Functionality", 
-		dependsOnMethods = "validateMyProfilePage_ProfileLink_Add_URL_AddSite_Button_Functionality_With_Valid_URL_Format_And_Description")
+	@Test(description = "Validate Add Profile Links- Delete URL Functionality", dependsOnMethods = "validateMyProfilePage_ProfileLink_Add_URL_AddSite_Button_Functionality_With_Valid_URL_Format_And_Description")
 	public void validateMyProfilePage_ProfileLink_Add_URL_AddedSite_Delete_Functionality(String uname, String pwd,
 			String createSite_URL) {
 		MyProfilePage profile = page.getInstance(LoginPage.class).validLoginProcess(uname, pwd);
