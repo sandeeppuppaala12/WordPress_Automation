@@ -18,7 +18,6 @@ public class MyProfilePage_Tests extends TestFrame {
 		MyProfilePage profile = page.getInstance(LoginPage.class).validLoginProcess(uname, pwd);
 		String title = profile.getPageTitle();
 		Assert.assertEquals(title, pageTitle);
-
 	}
 
 	@Parameters({ "uname", "pwd" })
@@ -198,32 +197,17 @@ public class MyProfilePage_Tests extends TestFrame {
 		Assert.assertEquals(profile.get_Description(), description);
 	}
 
-	@Parameters({ "uname", "pwd", "firstNameLabel" })
-	@Test(description = "Validate if First Name Label is as per the input provided")
-	public void myProfilePage_Labels_FirstName(String uname, String pwd, String firstNameLabel) {
+	@Parameters({ "uname", "pwd", "firstNameLabel", "lastNameLabel", "displayLabel", "descriptionLabel" })
+	@Test(description = "Validate all Label are as per the provided format")
+	public void myProfilePage_Labels_Validation(String uname, String pwd, String firstNameLabel, String lastNameLabel,
+			String displayLabel, String descriptionLabel) {
 		MyProfilePage profile = page.getInstance(LoginPage.class).validLoginProcess(uname, pwd);
-		Assert.assertEquals(profile.getFirstNameLabelText(), firstNameLabel);
-	}
-
-	@Parameters({ "uname", "pwd", "lastNameLabel" })
-	@Test(description = "Validate if Last Name Label is as per the input provided")
-	public void myProfilePage_Labels_LastName(String uname, String pwd, String lastNameLabel) {
-		MyProfilePage profile = page.getInstance(LoginPage.class).validLoginProcess(uname, pwd);
-		Assert.assertEquals(profile.getLastNameLabelText(), lastNameLabel);
-	}
-
-	@Parameters({ "uname", "pwd", "displayLabel" })
-	@Test(description = "Validate if Display Name Label is as per the input provided")
-	public void myProfilePage_Labels_DisplayName(String uname, String pwd, String displayLabel) {
-		MyProfilePage profile = page.getInstance(LoginPage.class).validLoginProcess(uname, pwd);
-		Assert.assertEquals(profile.getDisplayNameLabelText(), displayLabel);
-	}
-
-	@Parameters({ "uname", "pwd", "descriptionLabel" })
-	@Test(description = "Validate if Description Label is as per the input provided")
-	public void myProfilePage_Labels_Description(String uname, String pwd, String descriptionLabel) {
-		MyProfilePage profile = page.getInstance(LoginPage.class).validLoginProcess(uname, pwd);
-		Assert.assertEquals(profile.getDescriptionLabelText(), descriptionLabel);
+		SoftAssert soft = new SoftAssert();
+		soft.assertEquals(profile.getFirstNameLabelText(), firstNameLabel);
+		soft.assertEquals(profile.getLastNameLabelText(), lastNameLabel);
+		soft.assertEquals(profile.getDisplayNameLabelText(), displayLabel);
+		soft.assertEquals(profile.getDescriptionLabelText(), descriptionLabel);
+		soft.assertAll();
 	}
 
 	@Parameters({ "uname", "pwd", "photoChangeStatus" })
@@ -312,7 +296,7 @@ public class MyProfilePage_Tests extends TestFrame {
 	}
 
 	@Parameters({ "uname", "pwd" })
-	@Test(description = "Validate if Profile Link- Add URL- Add Site Button is Enabled without adding '.com' in the URL and Description text")
+	@Test(description = "Validate if Profile Link- Add URL- Add Site Button is Enabled by adding '.com' in the URL and Description text")
 	public void myProfile_ProfileLink_AddSite_Button_Functionality(String uname, String pwd) {
 		MyProfilePage profile = page.getInstance(LoginPage.class).validLoginProcess(uname, pwd);
 		profile.click_AddProfile_addURL_Button();
@@ -343,7 +327,8 @@ public class MyProfilePage_Tests extends TestFrame {
 	}
 
 	@Parameters({ "uname", "pwd", "createSite_URL", "createSite_Desc", "url_validationMessage" })
-	@Test(description = "Validate Profile Link- Add URL- Add Site Button Functionality with existing data", dependsOnMethods = "myProfile_ProfileLink_AddSite_Functionality", priority = 6)
+	@Test(description = "Validate Profile Link- Add URL- Add Site Button Functionality with existing data", 
+		dependsOnMethods = "myProfile_ProfileLink_AddSite_Functionality", priority = 6)
 	public void myProfile_ProfileLink_AddSite_With_ExistingData(String uname, String pwd, String createSite_URL,
 			String createSite_Desc, String url_validationMessage) {
 		MyProfilePage profile = page.getInstance(LoginPage.class).validLoginProcess(uname, pwd);
@@ -356,7 +341,8 @@ public class MyProfilePage_Tests extends TestFrame {
 	}
 
 	@Parameters({ "uname", "pwd", "createSite_URL" })
-	@Test(description = "Validate Add Profile Links- Delete URL Functionality", dependsOnMethods = "myProfile_ProfileLink_AddSite_Functionality", priority = 7)
+	@Test(description = "Validate Add Profile Links- Delete URL Functionality", 
+		dependsOnMethods = "myProfile_ProfileLink_AddSite_Functionality", priority = 7)
 	public void myProfile_ProfileLink_DeleteSite_Functionality(String uname, String pwd, String createSite_URL) {
 		MyProfilePage profile = page.getInstance(LoginPage.class).validLoginProcess(uname, pwd);
 		List<String> urls = profile.getProfileLinkList_URLs();
