@@ -316,6 +316,7 @@ public class MyProfilePage extends BaseFrame {
 	public void click_SaveButton() {
 		try {
 			clickElement(saveDetailsButton_xpath);
+			expliciteWait("clickable", firstName);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
