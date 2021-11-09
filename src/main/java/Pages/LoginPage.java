@@ -177,6 +177,7 @@ public class LoginPage extends BaseFrame {
 		try {
 			enter_Email_Address(uname);
 			click_ContinueButton();
+			pwd = decryptCredentials(pwd);
 			enter_Password(pwd);
 			click_ContinueButton();
 			waitForPageTitleChange("My Profile");

@@ -1,6 +1,7 @@
 package BaseFrame;
 
 import java.util.ArrayList;
+import java.util.Base64;
 import java.util.List;
 import java.util.Set;
 
@@ -245,6 +246,18 @@ public class BaseFrame extends Page_Abstraction {
 		try {
 			String[] strArray = text.split(splitConstant);
 			return strArray;
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return null;
+	}
+
+	@Override
+	public String decryptCredentials(String creds) {
+		try {
+			byte[] decodeBytes = Base64.getDecoder().decode(creds);
+			String enco = new String(decodeBytes);
+			return enco;
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

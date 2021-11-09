@@ -52,6 +52,8 @@ public abstract class Page_Abstraction {
 
 	public abstract By getElement(String xpath);
 
+	public abstract String decryptCredentials(String xpath);
+
 	public abstract String[] splitString(String text, String splitConstant);
 
 	public <PageClass extends BaseFrame> PageClass getInstance(Class<PageClass> pClass) {

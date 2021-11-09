@@ -327,8 +327,7 @@ public class MyProfilePage_Tests extends TestFrame {
 	}
 
 	@Parameters({ "uname", "pwd", "createSite_URL", "createSite_Desc", "url_validationMessage" })
-	@Test(description = "Validate Profile Link- Add URL- Add Site Button Functionality with existing data", 
-		dependsOnMethods = "myProfile_ProfileLink_AddSite_Functionality", priority = 6)
+	@Test(description = "Validate Profile Link- Add URL- Add Site Button Functionality with existing data", dependsOnMethods = "myProfile_ProfileLink_AddSite_Functionality", priority = 6)
 	public void myProfile_ProfileLink_AddSite_With_ExistingData(String uname, String pwd, String createSite_URL,
 			String createSite_Desc, String url_validationMessage) {
 		MyProfilePage profile = page.getInstance(LoginPage.class).validLoginProcess(uname, pwd);
@@ -341,8 +340,7 @@ public class MyProfilePage_Tests extends TestFrame {
 	}
 
 	@Parameters({ "uname", "pwd", "createSite_URL" })
-	@Test(description = "Validate Add Profile Links- Delete URL Functionality", 
-		dependsOnMethods = "myProfile_ProfileLink_AddSite_Functionality", priority = 7)
+	@Test(description = "Validate Add Profile Links- Delete URL Functionality", dependsOnMethods = "myProfile_ProfileLink_AddSite_Functionality", priority = 7)
 	public void myProfile_ProfileLink_DeleteSite_Functionality(String uname, String pwd, String createSite_URL) {
 		MyProfilePage profile = page.getInstance(LoginPage.class).validLoginProcess(uname, pwd);
 		List<String> urls = profile.getProfileLinkList_URLs();

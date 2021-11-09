@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="10526" started-at="2021-11-09T13:11:01 IST" finished-at="2021-11-09T13:11:12 IST">
+  <suite name="Suite" duration-ms="14075" started-at="2021-11-09T16:21:45 IST" finished-at="2021-11-09T16:21:59 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="10526" started-at="2021-11-09T13:11:01 IST" finished-at="2021-11-09T13:11:12 IST">
+    <test name="Test" duration-ms="14075" started-at="2021-11-09T16:21:45 IST" finished-at="2021-11-09T16:21:59 IST">
       <class name="Pages_Test.MyProfilePage_Tests">
-        <test-method status="PASS" signature="initilizeReporting()[pri:0, instance:Pages_Test.MyProfilePage_Tests@71bbf57e]" name="initilizeReporting" is-config="true" duration-ms="300" started-at="2021-11-09T13:11:01 IST" finished-at="2021-11-09T13:11:01 IST">
+        <test-method status="PASS" signature="initilizeReporting()[pri:0, instance:Pages_Test.MyProfilePage_Tests@71bbf57e]" name="initilizeReporting" is-config="true" duration-ms="562" started-at="2021-11-09T16:21:44 IST" finished-at="2021-11-09T16:21:45 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilizeReporting -->
-        <test-method status="PASS" signature="initilizeBrowser(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:Pages_Test.MyProfilePage_Tests@71bbf57e]" name="initilizeBrowser" is-config="true" duration-ms="4867" started-at="2021-11-09T13:11:01 IST" finished-at="2021-11-09T13:11:06 IST">
+        <test-method status="PASS" signature="initilizeBrowser(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:Pages_Test.MyProfilePage_Tests@71bbf57e]" name="initilizeBrowser" is-config="true" duration-ms="6635" started-at="2021-11-09T16:21:45 IST" finished-at="2021-11-09T16:21:51 IST">
           <params>
             <param index="0">
               <value>
@@ -25,14 +25,14 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[public void Pages_Test.MyProfilePage_Tests.myProfilePage_Labels_Validation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+                <![CDATA[public void Pages_Test.MyProfilePage_Tests.myProfilePageTitle(java.lang.String,java.lang.String,java.lang.String)]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilizeBrowser -->
-        <test-method status="PASS" signature="myProfilePage_Labels_Validation(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@71bbf57e]" name="myProfilePage_Labels_Validation" duration-ms="4934" started-at="2021-11-09T13:11:06 IST" description="Validate all Label are as per the provided format" finished-at="2021-11-09T13:11:11 IST">
+        <test-method status="PASS" signature="myProfilePageTitle(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Pages_Test.MyProfilePage_Tests@71bbf57e]" name="myProfilePageTitle" duration-ms="6160" started-at="2021-11-09T16:21:51 IST" description="Validate MyProfile Page Title" finished-at="2021-11-09T16:21:58 IST">
           <params>
             <param index="0">
               <value>
@@ -41,45 +41,30 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[Password@123]]>
+                <![CDATA[UGFzc3dvcmRAMTIz]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[First name]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Last name]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Public display name]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[About me]]>
+                <![CDATA[My Profile — WordPress.com]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- myProfilePage_Labels_Validation -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Pages_Test.MyProfilePage_Tests@71bbf57e]" name="afterMethod" is-config="true" duration-ms="694" started-at="2021-11-09T13:11:11 IST" finished-at="2021-11-09T13:11:12 IST">
+        </test-method> <!-- myProfilePageTitle -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Pages_Test.MyProfilePage_Tests@71bbf57e]" name="afterMethod" is-config="true" duration-ms="1232" started-at="2021-11-09T16:21:58 IST" finished-at="2021-11-09T16:21:59 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=myProfilePage_Labels_Validation status=SUCCESS method=MyProfilePage_Tests.myProfilePage_Labels_Validation(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Pages_Test.MyProfilePage_Tests@71bbf57e] output={null}]]]>
+                <![CDATA[[TestResult name=myProfilePageTitle status=SUCCESS method=MyProfilePage_Tests.myProfilePageTitle(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Pages_Test.MyProfilePage_Tests@71bbf57e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="endBrowserInstance()[pri:0, instance:Pages_Test.MyProfilePage_Tests@71bbf57e]" name="endBrowserInstance" is-config="true" duration-ms="232" started-at="2021-11-09T13:11:12 IST" finished-at="2021-11-09T13:11:12 IST">
+        <test-method status="PASS" signature="endBrowserInstance()[pri:0, instance:Pages_Test.MyProfilePage_Tests@71bbf57e]" name="endBrowserInstance" is-config="true" duration-ms="548" started-at="2021-11-09T16:21:59 IST" finished-at="2021-11-09T16:21:59 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endBrowserInstance -->

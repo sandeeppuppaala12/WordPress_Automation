@@ -5,7 +5,7 @@
 		<parameter name="browser" value="chrome"></parameter>
 		<parameter name="url" value="https://wordpress.com/me"></parameter>
 		<parameter name="uname" value="sandeep.puppaala@gmail.com"></parameter>
-		<parameter name="pwd" value="Password@123"></parameter>
+		<parameter name="pwd" value="UGFzc3dvcmRAMTIz"></parameter>
 		<parameter name="pageTitle"
 			value="My Profile — WordPress.com"></parameter>
 		<parameter name="invalidUserMessage"
